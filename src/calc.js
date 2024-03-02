@@ -1,10 +1,9 @@
 import runGameLogic from './games-logic.js';
-import { getRandomNumber } from './utilites.js';
-import { getRandomOperator} from './utilites.js';
+import { getRandomNumber, getRandomOperator } from './utilites.js';
 
 const description = 'What is the result of the expression?';
 
-const calculate =(operator, operand1, operand2) => {
+const calculate = (operator, operand1, operand2) => {
   switch (operator) {
     case '+':
       return operand1 + operand2;
