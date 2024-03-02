@@ -12,3 +12,10 @@ lint-fix:
 
 brain-games:
 	node bin/brain-games.js
+
+brain-even:
+	node bin/bran-even.js
+
+brain-calc:
+	node bin/bran-calc.js
+

@@ -4,5 +4,8 @@
 ### Codeclimate
 [![Maintainability](https://api.codeclimate.com/v1/badges/c9f09585e8146b0cdb42/maintainability)](https://codeclimate.com/github/unionblack/frontend-project-44/maintainability)
 
-### Asciinema
+### Asciinema Brain-Even
 [![asciicast](https://asciinema.org/a/mmlcXbBKmCydRNS2UW7kIKGtO.svg)](https://asciinema.org/a/mmlcXbBKmCydRNS2UW7kIKGtO)
+
+### Asciinema Brain-Calc
+[![asciicast](https://asciinema.org/a/jGIXFyr3bx6szxgGT9WbXTOgn.svg)](https://asciinema.org/a/jGIXFyr3bx6szxgGT9WbXTOgn)
