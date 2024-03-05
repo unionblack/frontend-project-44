@@ -3,21 +3,24 @@ import runGameLogic from './games-logic.js';
 
 const description = 'What number is missing in the progression?';
 
+const len = 10;
+
 const progression = (firstNum, step) => {
   const arr = [];
-  const len = 10;
   for (let i = 0; i < len; i += 1) {
     arr.push(firstNum + (i * step));
   }
-  arr.splice(getRandomNumber(1, 10), 1, '..');
-  return arr.join(' ');
+  return arr;
 };
 
 const generateRound = () => {
   const first = getRandomNumber(1, 50);
   const d = getRandomNumber(1, 10);
-  const question = progression(first, d);
-  const correctAnswer = String(d);
+  const resultProgression = progression(first, d);
+  const hiddenIndex = getRandomNumber(0, resultProgression.length - 1);
+  const correctAnswer = String(resultProgression[hiddenIndex]);
+  resultProgression[hiddenIndex] = '..';
+  const question = resultProgression.join(' ');
 
   return [question, correctAnswer];
 };
